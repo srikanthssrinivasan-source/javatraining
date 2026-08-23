@@ -34,11 +34,19 @@ public class SumArray {
 		System.out.println(total);
 		System.out.println();
 		
+
+		double average = (double) sum / nums.length;
+		
+		System.out.println(average);
+		System.out.println();
+		
+		
 		String [] names = new String[] {"Sri","Sow","Nivas"};
 		
 		for(String name:names) {
 			System.out.println(name.toUpperCase());
 		}
+		
 		
 	}
 
